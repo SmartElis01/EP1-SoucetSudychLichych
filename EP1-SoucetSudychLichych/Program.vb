@@ -4,8 +4,8 @@ Module Program
   Sub Main(args As String())
         Dim cislo, cislo2 As String
         Dim cisloo, cisloo2, vysled As Integer
-
-        Console.WriteLine("Napiš èíslo")
+        Do
+            Console.WriteLine("Napiš èíslo")
             cislo = Console.ReadLine
             Console.WriteLine("Napiš další èíslo")
             cislo2 = Console.ReadLine
@@ -20,7 +20,7 @@ Module Program
                     Console.WriteLine(" pouze celá èísla :)")
                 End If
             End If
-
+        Loop
 
     End Sub
 End Module
